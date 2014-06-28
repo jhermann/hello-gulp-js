@@ -1,0 +1,25 @@
+{
+    "name": "hello-gulp-js",
+    "version": "0.1.0-SNAPSHOT",
+    "description": "A minimal gulp sample project that uses npm",
+    "homepage": "https://github.com/jhermann/hello-gulp-js",
+    "author":
+        { "name" : "Juergen Hermann"
+        , "email" : "jh@web.de"
+        , "url" : "http://jhermann.github.io/"
+    },
+    "repository" :
+        { "type" : "git"
+        , "url" : "https://github.com/jhermann/hello-gulp-js.git"
+    },
+    "devDependencies":
+        { "gulp": "*"
+    },
+    "files":
+        [ "*.js"
+    ],
+    "publishConfig":
+        { "registry" : "http://repo.example.com/artifactory/api/npm/npm-snapshots-local"
+    },
+    "private": true
+}
