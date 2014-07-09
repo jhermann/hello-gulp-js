@@ -20,3 +20,7 @@ test -d lib/node_modules/gulp || npm install -g gulp
 npm install
 gulp
 ```
+
+## Similar Projects
+
+* [hilios/hello-gulp](https://github.com/hilios/hello-gulp)
